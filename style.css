@@ -15,3 +15,10 @@
 .backgroundSecondary {
   background-color: #151515;
 }
+
+.partystadium {
+  background-image: url(partyStadium.jpg);
+  background-size: cover;
+  min-height: 80dvh;
+  margin-top: 2rem;
+}
