@@ -11,10 +11,13 @@
     defer></script>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@mdi/font@latest/css/materialdesignicons.min.css">
   <link rel="stylesheet" href="style.css">
+  <script id="debug-script" src="https://cdn.jsdelivr.net/gh/MickShannahan/style-debug@latest/debug.min.js"
+    defer></script>
   <title>Sports Site</title>
 </head>
 
-<body class="backgrounvdgray">
+<body class="backgroundgray debug">
+  <!-- NOTE address bar and Nav Bar -->
   <header>
     <div class="container-fluid">
       <div class="row text-center">
@@ -26,13 +29,13 @@
         </div>
       </div>
 
-      <div class="row p-2 backgroundSecondary text-danger">
+      <div class="row py-2 backgroundSecondary text-danger">
         <div class="col-6 ">
           <span class="mdi mdi-basketball"></span>
           <span>Sporty</span>
         </div>
         <nav class="col-6">
-          <div class="d-flex justify-content-around">
+          <div class="d-flex justify-content-around flex-wrap">
             <span>Home</span>
             <span>About</span>
             <span>Facilities</span>
@@ -51,10 +54,12 @@
       <div class="container-fluid">
         <div class="row running-bg justify-content-end align-items-center">
           <div class="col-6 ">
-            <div class="d-flex flex-column ">
+            <div class="d-flex flex-column justify-content-start  ">
               <p class="text-danger textshadow">WELCOME TO OUR SPORTS CLUB</p>
               <h2 class="">JOIN NOW OUR YOUTH SQUAD CLUB</h2>
-              <button class="btn btn-light">Join Our Club
+              <div>
+                <button class="btn btn-light">Join Our Club
+              </div>
               </button>
             </div>
           </div>
@@ -68,30 +73,30 @@
           <div class="text-center d-flex flex-column align-items-center justify-content-center">
             <h3>OUR FEATURES</h3>
             <div class="row ">
-              <div class="col-3 text-center">
+              <div class="col-lg-3 col-md-6 text-center">
                 <div class="m-1 bg-danger">
-                  <div class="mdi mdi-soccer"></div>
+                  <div class="mdi mdi-soccer fs-1"></div>
                   <h4>Xtreme Sports</h4>
                   <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum, dolore.</p>
                 </div>
               </div>
-              <div class="col-3 text-center">
+              <div class="col-lg-3 col-md-6 text-center">
                 <div class="m-1 bg-danger">
-                  <div class="mdi mdi-medal"></div>
+                  <div class="mdi mdi-medal fs-1"></div>
                   <h4>Medals Won</h4>
                   <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum, dolore.</p>
                 </div>
               </div>
-              <div class="col-3 text-center">
+              <div class="col-lg-3 col-md-6 text-center">
                 <div class="m-1 bg-danger">
-                  <div class="mdi mdi-account-group"></div>
+                  <div class="mdi mdi-account-group fs-1"></div>
                   <h4>Talented Staff</h4>
                   <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum, dolore.</p>
                 </div>
               </div>
-              <div class="col-3 text-center">
+              <div class="col-lg-3 col-md-6 text-center">
                 <div class="m-1 bg-danger">
-                  <div class="mdi mdi-kabaddi"></div>
+                  <div class="mdi mdi-kabaddi fs-1"></div>
                   <h4>Adventure Zone</h4>
                   <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum, dolore.</p>
                 </div>
@@ -104,7 +109,61 @@
     </section>
     <!-- NOTE Sports offered section -->
     <section>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-12">
+            <div class="text-center text-danger">
+              <h4>Sports We Offer</h4>
+            </div>
+          </div>
+          <div class="col-6 col-md-4">
+            <div class="m-3">
+              <img class="img-fluid" src="ball.jpg" alt="ball">
+            </div>
+          </div>
+          <div class="col-6 col-md-4">
+            <div class="m-3">
+              <img class="img-fluid" src="ball.jpg" alt="ball">
+            </div>
+          </div>
+          <div class="col-6 col-md-4">
+            <div class="m-3">
+              <img class="img-fluid" src="ball.jpg" alt="ball">
+            </div>
+          </div>
+          <div class="col-6 col-md-4">
+            <div class="m-3">
+              <img class="img-fluid" src="ball.jpg" alt="ball">
+            </div>
+          </div>
+          <div class="col-6 col-md-4">
+            <div class="m-3">
+              <img class="img-fluid" src="ball.jpg" alt="ball">
+            </div>
+          </div>
+          <div class="col-6 col-md-4">
+            <div class="m-3">
+              <img class="img-fluid" src="ball.jpg" alt="ball">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- NOTE PLAY BUTTON -->
+    <section>
+      <div class="container-fluid">
+        <div class="row py-2 backgroundSecondary">
+          <div class="col-12 text-center">
+            <div class="">
+              <div class="mdi mdi-play-circle-outline text-danger fs-1"></div>
+              <h4 class="text-danger">SHOW REEL</h3>
+                <p class="text-light">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus, excepturi quaerat
+                  incidunt culpa minus cum?</p>
 
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
   </main>
 
