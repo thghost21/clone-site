@@ -1,3 +1,17 @@
-body {
-  background-color: blue;
+.running-bg {
+  background-image: url(runningdudes.jpg);
+  background-size: cover;
+  min-height: 80dvh;
+}
+
+.textshadow {
+  text-shadow: 1px 1px black;
+}
+
+.backgroundgray {
+  background-color: #222222;
+}
+
+.backgroundSecondary {
+  background-color: #151515;
 }
